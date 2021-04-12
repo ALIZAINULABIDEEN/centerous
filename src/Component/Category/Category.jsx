@@ -83,7 +83,7 @@ class Category extends Component {
                                         <div class="col-xl-3 col-lg-3 col-md-3">
                                             <div class="product text-center mb-50">
                                                 <div class="product__img grey-bg mb-30">
-                                                    <a href="#">
+                                                    <a href="/centerous">
                                                         <img src={web} alt="" />
                                                         </a>
                                                 </div>
@@ -123,7 +123,7 @@ class Category extends Component {
                                         <div class="col-xl-3 col-lg-3 col-md-3">
                                             <div class="product text-center mb-50">
                                                 <div class="product__img grey-bg mb-30">
-                                                    <a href="product-details.html"><img className="img-fluid" src={pic} alt="" /></a>
+                                                    <a href="/Almaroof"><img className="img-fluid" src={pic} alt="" /></a>
                                                 </div>
                                                 <div class="product__text">
                                                     <div class="product__text--icon">
@@ -161,7 +161,9 @@ class Category extends Component {
                                         <div class="col-xl-3 col-lg-3 col-md-3">
                                             <div class="product text-center mb-50">
                                                 <div class="product__img grey-bg mb-30">
-                                                    <a href="product-details.html"><img className="img-fluid" src={nic}alt="" /></a>
+                                                    <a href="/Silveroaks"><img
+                                                    style={{height:"315px"}}
+                                                    className="img-fluid" src={nic}alt="" /></a>
                                                 </div>
                                                 <div class="product__text">
                                                     <div class="product__text--icon">

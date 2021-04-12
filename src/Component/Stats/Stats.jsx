@@ -30,7 +30,7 @@ class Stats extends Component {
                                     <h5 class="semi-title mb-10">Project Compalte</h5>
                                     <p class="mb-10">But I must explain to you how all
                                         mistaken idea denouncing ple</p>
-                                    <h2><span class="counter">
+                                    <h2 style={{textAlign:"center"}}><span class="counter">
                                         
                                     <CountUp
                                             end={362}
@@ -46,7 +46,7 @@ class Stats extends Component {
                                     <h5 class="semi-title mb-10">Satisfied Peoples</h5>
                                     <p class="mb-10">But I must explain to you how all
                                         mistaken idea denouncing ple</p>
-                                    <h2>
+                                    <h2 style={{textAlign:"center"}}>
                                         <span class="counter">
                                             {/* <Counter/> */}
                                             <CountUp
@@ -64,7 +64,7 @@ class Stats extends Component {
                                     <h5 class="semi-title mb-10">Awards Winning</h5>
                                     <p class="mb-10">But I must explain to you how all
                                         mistaken idea denouncing ple</p>
-                                    <h2><span class="counter">
+                                    <h2 style={{textAlign:"center"}}><span class="counter">
                                        <CountUp
                                             end={986}
                                             duration={10}
@@ -80,7 +80,7 @@ class Stats extends Component {
                                     <h5 class="semi-title mb-10">Global Brands</h5>
                                     <p class="mb-10">But I must explain to you how all
                                         mistaken idea denouncing ple</p>
-                                    <h2><span class="counter">
+                                    <h2 style={{textAlign:"center"}}><span class="counter">
                                     <CountUp
                                             end={539}
                                             duration={50}

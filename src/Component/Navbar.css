@@ -6,47 +6,22 @@
     font-family: 'Montserrat', sans-serif;
    
 }
-  .logo {
-    font-size: 32px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-@media (min-width: 992px){
-.me-lg-0 {
-    margin-right: 0!important;
-}
-}
-
-a {
-    /* color: #ffc451; */
-    text-decoration: none;
-}
- .logo a {
-    color: #fff;
-}
- .logo a span {
-    color: #ffc451;
-}
 header{
     position: absolute;
     top: 30px;
     left: 0;
     width: 100%;
     z-index: 5;
-    /* overflow: hidden; */
-    /* background-color: black; */  
-
 }
-
 .bg-dark {
     
     background:  0 0!important;;
     padding: 8px 16px;
   
+}
+
+.navbar-brand .logo a:hover{
+    color: green;
 }
 @media (max-width: 1199.98px){
 header .navbar {
@@ -61,6 +36,10 @@ header .navbar {
     letter-spacing: 2px;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: #f1c128;
+    color: #ff7029;
     font-weight: bolder;
+}
+
+.navbar-collapse.in {
+    display: block !important;
 }

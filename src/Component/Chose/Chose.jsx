@@ -9,7 +9,7 @@ class Chose extends Component {
     render() { 
         return (  
             <>
-            <section class="chose-us-area pos-rel pb-70">
+            <section class="chose-us-area pos-rel pb-70 ">
             <div class="chose-shape2 pos-abl d-none d-lg-block"><img src="https://www.devsnews.com/template/spower/spower/assets/img/shape/round01.png" className="App-logo" alt=""/>
             </div>
             <div class="container">
@@ -30,14 +30,16 @@ class Chose extends Component {
                                     </div>
                                     <div class="col-12">
                                         <div class="chose__img__five mb-30" data-tilt data-tilt-max="4">
-                                            <img class="img-fluid" src="https://www.devsnews.com/template/spower/spower/assets/img/chose/chose5.jpg" alt=""/>
+                                            <img class="img-fluid" src="https://www.devsnews.com/template/spower/spower/assets/img/chose/chose5.jpg" alt=""
+                                            style={{width:"100%"}}
+                                            />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-6 col-md-12">
+                    <div class="col-xl-5 col-lg-6 col-md-12 order-lg-1">
                         <div class="chose-wrapper ml-50">
                             <div class="section-title text-left mb-25">
                                 <h6 class="mb-25">Who we are</h6>

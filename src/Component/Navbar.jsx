@@ -24,7 +24,7 @@ class Header extends Component {
           <NavLink className="navbar-brand" to="/Home">
             {/* <img src="http://codehive.pk/hip/public/images/hiplogo.png" alt="logo"/> */}
             <h1 class="logo me-auto me-lg-0">
-              <a href="index.html">Silver Okas
+              <a href="/Home" style={{textDecoration:"none"}}>Silver Okas
              
               <span>.</span>
               <img src={web} alt=""
